@@ -59,7 +59,6 @@ if os.getenv("PYTORCH_VERSION"):
 
 requirements = [
     "numpy",
-    pytorch_dep,
 ]
 
 # Excluding 8.3.* because of https://github.com/pytorch/vision/issues/4934
